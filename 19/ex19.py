@@ -1,6 +1,6 @@
-#defines the function cheese_and_crackers which takes in two arguments. 
+#defines the function cheese_and_crackers which takes in two arguments.
 """
-def cheese_and_crackers (cheese_count, boxes_of_crackers):
+def cheese_and_crackers(cheese_count, boxes_of_crackers):
 	#The function outputs the number of cheeses in a senetence depending on argument passed to it.
 	print "You have %d cheeses!" % cheese_count
 	#The second outpout line is the number of cracker boxes depending on the argument of cracker boxes passed to it.
@@ -24,7 +24,7 @@ cheese_and_crackers(10+20, 5+6)
 print "And we can combine the two, variables and math:"
 cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
 """
-def soccer_and_basketball (number_of_soccer_balls, number_of_basketballs):
+def soccer_and_basketball(number_of_soccer_balls, number_of_basketballs):
 	print "We currently have %d soccer balls" % number_of_soccer_balls
 	print "We also happen to have %d basketballs" % number_of_basketballs
 	print "in total we have %d balls" % (number_of_soccer_balls+number_of_basketballs)
