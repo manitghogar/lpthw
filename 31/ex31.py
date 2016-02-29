@@ -45,12 +45,15 @@ else:
 
 print "this is a game that I am going ot create. In this game we face two options. Option 1 and Opton 2. What do you choose?"
 option = raw_input("> ")
+
 if option == "1":
 	print "You will be presented with three vacation options:"
 	print "1. Go to egypt"
 	print "2. Go to africa"
 	print "3. Go to Thailand"
+
 	vacation = raw_input()
+
 	if vacation == "1" or vacation == "2":
 		print "Have fun, great country"
 	else:
@@ -59,7 +62,9 @@ elif option == "2":
 	print "You will be presented with two activity options:"
 	print "1. Go bungee jumping"
 	print "2. Go sky diving"
+
 	activity = raw_input("> ")
+
 	if activity == "1":
 		print "Nice choice"
 	elif activity == "2":
